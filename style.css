@@ -99,84 +99,84 @@ div span {
 
 main div:first-child {
     /* Changbin */
-    background-image: url("./Imagenes/Changbin.jpg");
+    background-image: url("./Imagenes/Changbin.webp");
     grid-column: 1/7;
     grid-row: 1/5;
 }
 
 main div:nth-child(2) {
     /* duo1 */
-    background-image: url("./Imagenes/duo1.jpg");
+    background-image: url("./Imagenes/duo1.webp");
     grid-column: 7/13;
     grid-row: 1/7;
 }
 
 main div:nth-child(3) {
     /* bangchan */
-    background-image: url("./Imagenes/Ban-Chang.jpg");
+    background-image: url("./Imagenes/Ban-Chang.webp");
     grid-column: 13/19;
     grid-row: 1/5;
 }
 
 main div:nth-child(4) {
     /* han */
-    background-image: url("./Imagenes/Han.jpg");
+    background-image: url("./Imagenes/Han.webp");
     grid-column: 1/7;
     grid-row: 5/9;
 }
 
 main div:nth-child(5) {
     /* in */
-    background-image: url("./Imagenes/I.N.jpg");
+    background-image: url("./Imagenes/I.N.webp");
     grid-column: 13/19;
     grid-row: 5/9;
 }
 
 main div:nth-child(6) {
     /* leeknow */
-    background-image: url("./Imagenes/Lee-Know.jpg");
+    background-image: url("./Imagenes/Lee-Know.webp");
     grid-column: 1/7;
     grid-row: 9/13;
 }
 
 main div:nth-child(7) {
     /* duo4 */
-    background-image: url("./Imagenes/duo4.jpg");
+    background-image: url("./Imagenes/duo4.webp");
     grid-column: 7/13;
     grid-row: 7/13;
 }
 
 main div:nth-child(8) {
     /* seungmin */
-    background-image: url("./Imagenes/Seungmin.jpg");
+    background-image: url("./Imagenes/Seungmin.webp");
     grid-column: 13/19;
     grid-row: 9/13;
 }
 
 main div:nth-child(9) {
     /* Hyunjin */
-    background-image: url("./Imagenes/Hyunjin.jpg");
+    background-image: url("./Imagenes/Hyunjin.webp");
     grid-column: 1/6;
     grid-row: 13/20;
 }
 
 main div:nth-child(10) {
     /* duo2 */
-    background-image: url("./Imagenes/duo2.jpg");
+    background-image: url("./Imagenes/duo2.webp");
     grid-column: 6/14;
     grid-row: 13/17;
 }
 
 main div:nth-child(11) {
     /* duo3 */
-    background-image: url("./Imagenes/duo3.jpg");
+    background-image: url("./Imagenes/duo3.webp");
     grid-column: 6/14;
     grid-row: 17/20;
 }
 
 main div:last-child {
     /* felix */
-    background-image: url("./Imagenes/Felix.jpg");
+    background-image: url("./Imagenes/Felix.webp");
     grid-column: 14/19;
     grid-row: 13/20;
 }
@@ -407,7 +407,7 @@ main div:last-child:hover span {
     main div:last-child {
         /* felix */
         grid-area: auto;
-        background-image: url("./Imagenes/Felix1.jpg");
+        background-image: url("./Imagenes/Felix1.webp");
     }
 }
 
