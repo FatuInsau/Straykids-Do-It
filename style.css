@@ -102,10 +102,6 @@ main div:first-child {
     background-image: url("./Imagenes/Changbin.jpg");
     grid-column: 1/7;
     grid-row: 1/5;
-
-    &:hover span {
-        animation: bajar 600ms linear forwards;
-    }
 }
 
 main div:nth-child(2) {
@@ -120,11 +116,6 @@ main div:nth-child(3) {
     background-image: url("./Imagenes/Ban-Chang.jpg");
     grid-column: 13/19;
     grid-row: 1/5;
-
-    &:hover span {
-        animation: bajar 600ms linear forwards;
-        color: black;
-    }
 }
 
 main div:nth-child(4) {
@@ -132,10 +123,6 @@ main div:nth-child(4) {
     background-image: url("./Imagenes/Han.jpg");
     grid-column: 1/7;
     grid-row: 5/9;
-
-    &:hover span {
-        animation: izquierda 600ms linear forwards;
-    }
 }
 
 main div:nth-child(5) {
@@ -143,10 +130,6 @@ main div:nth-child(5) {
     background-image: url("./Imagenes/I.N.jpg");
     grid-column: 13/19;
     grid-row: 5/9;
-
-    &:hover span {
-        animation: derecha 600ms linear forwards;
-    }
 }
 
 main div:nth-child(6) {
@@ -154,11 +137,6 @@ main div:nth-child(6) {
     background-image: url("./Imagenes/Lee-Know.jpg");
     grid-column: 1/7;
     grid-row: 9/13;
-
-    &:hover span {
-        animation: izquierda 700ms linear forwards;
-        color: black;
-    }
 }
 
 main div:nth-child(7) {
@@ -173,10 +151,6 @@ main div:nth-child(8) {
     background-image: url("./Imagenes/Seungmin.jpg");
     grid-column: 13/19;
     grid-row: 9/13;
-
-    &:hover span {
-        animation: derecha 700ms linear forwards;
-    }
 }
 
 main div:nth-child(9) {
@@ -184,10 +158,6 @@ main div:nth-child(9) {
     background-image: url("./Imagenes/Hyunjin.jpg");
     grid-column: 1/6;
     grid-row: 13/20;
-
-    &:hover span {
-        animation: subir 600ms linear forwards;
-    }
 }
 
 main div:nth-child(10) {
@@ -209,10 +179,6 @@ main div:last-child {
     background-image: url("./Imagenes/Felix.jpg");
     grid-column: 14/19;
     grid-row: 13/20;
-
-    &:hover span {
-        animation: subir 600ms linear forwards;
-    }
 }
 
 .cierre {
@@ -329,6 +295,50 @@ a:hover {
     }
 }
 
+@media (width >1024px) {
+    main div:first-child:hover span{
+    /* Changbin */
+    animation: bajar 600ms linear forwards;
+}
+
+main div:nth-child(3):hover span {
+    /* bangchan */
+    animation: bajar 600ms linear forwards;
+    color: black;
+}
+
+main div:nth-child(4):hover span {
+    /* han */
+    animation: izquierda 600ms linear forwards;
+}
+
+main div:nth-child(5):hover span {
+    /* in */
+    animation: derecha 600ms linear forwards;
+}
+
+main div:nth-child(6):hover span {
+    /* leeknow */
+    animation: izquierda 700ms linear forwards;
+    color: black;
+}
+
+main div:nth-child(8):hover span {
+    /* seungmin */
+    animation: derecha 700ms linear forwards;
+}
+
+main div:nth-child(9):hover span {
+    /* Hyunjin */
+    animation: subir 600ms linear forwards;
+}
+
+main div:last-child:hover span {
+    /* felix */
+    animation: subir 600ms linear forwards;
+}
+}
+
 @media (width < 1300px) {
     main {
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -417,5 +427,39 @@ a:hover {
         /* leeknow */
         color: black;
     }
+}
 
+@media (width < 500px) {
+
+    body {
+        padding: 1rem;
+    }
+    
+    main {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    main div {
+        height: 10rem;
+        animation-range: entry 20% cover 30%;
+    }
+
+    div span {
+        font-size: 1.5rem;
+    }
+
+    main div:nth-child(9) {
+        /* Hyunjin */
+        color: black;
+    }
+    .cierre {
+        margin: 0;
+    }
+
+    svg {
+        width: 1rem;
+    }
 }
