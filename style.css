@@ -460,6 +460,12 @@ main div:last-child:hover span {
         font-size: 1.5rem;
     }
 
+    main div:first-child span {
+        /* Changbin */
+        animation: none;
+        opacity: 1;
+    }
+
     main div:nth-child(9) {
         /* Hyunjin */
         color: black;
