@@ -420,7 +420,7 @@ main div:last-child:hover span {
     main div span {
         animation: derecha linear both;
         animation-timeline: view();
-        animation-range: entry 20% cover 40%;
+        animation-range: entry 20% cover 30%;
     }
 
     main div:nth-child(3) span {
@@ -453,7 +453,7 @@ main div:last-child:hover span {
 
     main div {
         height: 10rem;
-        animation-range: entry 20% cover 30%;
+        animation-range: entry 10% cover 30%;
     }
 
     div span {
@@ -462,7 +462,6 @@ main div:last-child:hover span {
 
     main div:first-child span {
         /* Changbin */
-        animation: none;
         opacity: 1;
     }
 
