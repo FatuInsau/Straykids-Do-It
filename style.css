@@ -412,6 +412,11 @@ main div:last-child:hover span {
 }
 
 @media (width < 1024px) {
+
+     nav img {
+        width: 5rem;
+    }
+
     main div span {
         animation: derecha linear both;
         animation-timeline: view();
@@ -433,6 +438,10 @@ main div:last-child:hover span {
 
     body {
         padding: 1rem;
+    }
+
+    nav img {
+        width: 3rem;
     }
     
     main {
